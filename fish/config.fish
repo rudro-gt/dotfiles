@@ -1,6 +1,7 @@
 # Fish shell configuration
 # Equivalent to my old .zshrc
 
+set -g fish_greeting
 set -gx PATH /usr/local/bin $HOME/.local/bin $HOME/go/bin /usr/local/go/bin $HOME/.cargo/bin $PATH
 set -gx PATH $HOME/.bun/bin $PATH
 set -gx PATH $HOME/.local/share/pnpm $PATH
@@ -46,4 +47,3 @@ if not set -q ZELLIJ
 else
     ls
 end
-
